@@ -1,0 +1,16 @@
+.float-right{float:right;}
+a{display:block;}
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; } 
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+
+.container{padding:20px 0;}
+.mcard, .mhole{display:inline-block; width:auto; padding:0 5px 80px 50px;margin-right:10px;border:1px solid #888;border-radius:3px;color:#fff;font-size:10px;}
+.mcard-red{background-color:#e86c53;}
+.mcard-blue{background-color:#4286f4;}
+.mcard-yellow{background-color:#cecd77;}
+.mcard-green{background-color:#9fdd58;}
+.ads_wrapper{width:250px;text-align:center;height:250px;background:#eee;overflow:hidden;}
+.ads_wrapper *{opacity:0;font-family:cursive;}
+.ads_wrapper .r2{width:200px;}

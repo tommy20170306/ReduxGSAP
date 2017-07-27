@@ -1,3 +1,5 @@
+/*const UglifyJSPlugin = require('uglifyjs-webpack-plugin')*/
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -23,5 +25,8 @@ module.exports = {
     historyApiFallback: true,
     contentBase: './',
     port: 9001
-  }
+  },
+  /*plugins: [
+    new UglifyJSPlugin()
+  ]*/
 };
